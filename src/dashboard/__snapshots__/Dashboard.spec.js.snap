@@ -36,3 +36,38 @@ Array [
   </div>,
 ]
 `;
+
+exports[`<Dashboard /> render Display components  1`] = `
+<div
+  className="display panel"
+>
+  <div
+    className="led green-led"
+  >
+    Unlocked
+  </div>
+  <div
+    className="led green-led"
+  >
+    Open
+  </div>
+</div>
+`;
+
+exports[`<Dashboard /> render controls components  1`] = `
+<div
+  className="controls panel"
+>
+  <button
+    className="toggle-btn"
+    disabled={true}
+  >
+    Lock Gate
+  </button>
+  <button
+    className="toggle-btn"
+  >
+    Close Gate
+  </button>
+</div>
+`;
